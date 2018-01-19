@@ -1,0 +1,900 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 30/Nov/2017  18:18:51
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Exe\STM32F411_AIR_MOUSE.out
+#    Map file     =  
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE/List\STM32F411_AIR_MOUSE.map
+#    Command line =  
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cmsis_os.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\croutine.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\customIntf.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\Src\cwm\algo\cwm_air_mouse_V00.01.00_20171108_IAR.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\Src\cwm\algo\cwm_common_utility_float_V00.09.07_20170725_IAR.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\Src\cwm\algo\cwm_fusion_ExMem_V03.15.05_20171106_IAR.o
+#        "D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwm_sample
+#        task.o"
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwmAlgorithmHal.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwmApp.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwmCalibrator.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwmDriverHal.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwmGpioConfig.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwmTaskCmd.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\cwmTaskSen.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\DriverBMI160_SPI.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\event_groups.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\freertos.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\heap_4.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\list.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\main.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\port.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\portasm.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\queue.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\startup_stm32f411xe.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_cortex.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_dma.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_dma_ex.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_flash.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_flash_ex.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_flash_ramfunc.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_gpio.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_msp.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_pwr.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_pwr_ex.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_rcc.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_rcc_ex.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_spi.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_tim.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_hal_tim_ex.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\stm32f4xx_it.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\system_stm32f4xx.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\tasks.o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj\timers.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Exe\STM32F411_AIR_MOUSE.out
+#        --map
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE/List\STM32F411_AIR_MOUSE.map
+#        --config
+#        D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM/stm32f411xe_flash.icf
+#        --semihosting --entry __iar_program_start "C:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench
+#        7.4\arm\CMSIS\Lib\IAR\iar_cortexM4lf_math.a" --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0807ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x2001ffff] { rw, block CSTACK, block HEAP };
+
+  Section             Kind        Address    Size  Object
+  -------             ----        -------    ----  ------
+"A1":                                       0x198
+  .intvec             ro code  0x08000000   0x198  startup_stm32f411xe.o [1]
+                             - 0x08000198   0x198
+
+"P1":                                      0x89ec
+  .text               ro code  0x08000198  0x2c34  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+  .text               ro code  0x08002dcc    0x76  ABImemcpy_unaligned.o [7]
+  .text               ro code  0x08002e44   0x3ec  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+  .text               ro code  0x08003230     0x6  ABImemclr4.o [7]
+  .text               ro code  0x08003238    0x90  DblToFlt.o [6]
+  .text               ro code  0x080032c8   0x1a2  DblMul.o [6]
+  .text               ro code  0x0800346c    0x4e  FltToDbl.o [6]
+  .text               ro code  0x080034bc    0x1c  sqrtf.o [6]
+  .text               ro code  0x080034d8    0x7c  arm_sin_f32.o [5]
+  .text               ro code  0x08003554    0x80  arm_cos_f32.o [5]
+  .text               ro code  0x080035d4    0x5c  asinf.o [6]
+  .text               ro code  0x08003630    0x64  acosf.o [6]
+  .text               ro code  0x08003694    0x6a  atan2f.o [6]
+  .text               ro code  0x080036fe     0x8  arm_mat_init_f32.o [5]
+  .text               ro code  0x08003708   0x100  arm_mat_mult_f32.o [5]
+  .text               ro code  0x08003808    0xfa  arm_mat_trans_f32.o [5]
+  .text               ro code  0x08003904   0x550  arm_mat_inverse_f32.o [5]
+  .text               ro code  0x08003e54    0x32  ABImemset48.o [7]
+  .text               ro code  0x08003e88     0xc  iarEdom.o [7]
+  .text               ro code  0x08003e94    0xa4  xatanf.o [6]
+  .text               ro code  0x08003f38     0xc  errno.o [4]
+  .text               ro code  0x08003f44     0x2  xtls.o [4]
+  .text               ro code  0x08003f48   0x944  tasks.o [1]
+  .text               ro code  0x0800488c   0x1ac  heap_4.o [1]
+  .text               ro code  0x08004a38    0x8e  list.o [1]
+  .text               ro code  0x08004ac8   0x1ec  port.o [1]
+  .text               ro code  0x08004cb4   0x38c  timers.o [1]
+  CODE                ro code  0x08005040    0xa8  portasm.o [1]
+  .text               ro code  0x080050e8   0x580  queue.o [1]
+  .rodata             const    0x08005668   0x804  arm_common_tables.o [5]
+  .text               ro code  0x08005e6c   0x726  DriverBMI160_SPI.o [1]
+  .text               ro code  0x08006594   0x21c  cwmDriverHal.o [1]
+  .text               ro code  0x080067b0     0x4  cwmGpioConfig.o [1]
+  .text               ro code  0x080067b4    0x22  I64Shl.o [7]
+  .text               ro code  0x080067d8   0x620  cwmApp.o [1]
+  .text               ro code  0x08006df8   0x240  cwmAlgorithmHal.o [1]
+  .text               ro code  0x08007038   0x168  cwmTaskSen.o [1]
+  .text               ro code  0x080071a0   0x3d8  cwmCalibrator.o [1]
+  .text               ro code  0x08007578     0x6  ABImemclr.o [7]
+  .text               ro code  0x08007580    0xf2  customIntf.o [1]
+  .text               ro code  0x08007674   0x18c  cwm_air_mouse_V00.01.00_20171108_IAR.o [2]
+  .text               ro code  0x08007800    0x2e  DblCmpGe.o [6]
+  .text               ro code  0x08007830    0x2e  DblCmpLe.o [6]
+  .text               ro code  0x08007860    0x5e  ABImemset.o [7]
+  .text               ro code  0x080078c0    0xf4  cwmTaskCmd.o [1]
+  .text               ro code  0x080079b4   0x438  stm32f4xx_hal_rcc.o [1]
+  .text               ro code  0x08007dec    0x70  stm32f4xx_hal.o [1]
+  .text               ro code  0x08007e5c    0xc0  stm32f4xx_hal_cortex.o [1]
+  .text               ro code  0x08007f1c    0xb4  stm32f4xx_hal_msp.o [1]
+  .text               ro code  0x08007fd0   0x1c4  stm32f4xx_hal_gpio.o [1]
+  .text               ro code  0x08008194   0x31a  stm32f4xx_hal_spi.o [1]
+  .text               ro code  0x080084b0   0x1e6  main.o [1]
+  .text               ro code  0x08008698   0x170  cwm_sample task.o [1]
+  .text               ro code  0x08008808    0x66  cmsis_os.o [1]
+  .text               ro code  0x08008870    0x60  system_stm32f4xx.o [1]
+  .text               ro code  0x080088d0    0x40  zero_init3.o [7]
+  .text               ro code  0x08008910    0x2c  copy_init3.o [7]
+  .text               ro code  0x0800893c    0x28  data_init.o [7]
+  .text               ro code  0x08008964    0x22  fpinit_M.o [6]
+  .iar.init_table     const    0x08008988    0x24  - Linker created -
+  .text               ro code  0x080089ac    0x1a  cmain.o [7]
+  .text               ro code  0x080089c6     0x4  low_level_init.o [4]
+  .text               ro code  0x080089ca     0x4  exit.o [4]
+  .text               ro code  0x080089d0     0xa  cexit.o [7]
+  .text               ro code  0x080089dc    0x14  exit.o [8]
+  .text               ro code  0x080089f0    0x10  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a00     0xe  stm32f4xx_it.o [1]
+  .rodata             const    0x08008a10     0xc  cwm_sample task.o [1]
+  .text               ro code  0x08008a1c     0xc  cstartup_M.o [7]
+  .text               ro code  0x08008a28     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a2c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a30     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a34     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a38     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a3c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a40     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a44     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a48     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a4c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a50     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a54     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a58     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a5c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a60     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a64     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a68     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a6c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a70     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a74     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a78     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a7c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a80     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a84     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a88     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a8c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a90     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a94     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a98     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008a9c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008aa0     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008aa4     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008aa8     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008aac     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ab0     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ab4     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ab8     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008abc     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ac0     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ac4     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ac8     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008acc     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ad0     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ad4     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ad8     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008adc     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ae0     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ae4     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008ae8     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008aec     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008af0     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008af4     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008af8     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008afc     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b00     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b04     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b08     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b0c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b10     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b14     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b18     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b1c     0x4  startup_stm32f411xe.o [1]
+  .text               ro code  0x08008b20     0x4  startup_stm32f411xe.o [1]
+  .rodata             const    0x08008b24     0x0  zero_init3.o [7]
+  .rodata             const    0x08008b24     0x0  copy_init3.o [7]
+  Initializer bytes   const    0x08008b24    0x60  <for P2 s0>
+                             - 0x08008b84  0x89ec
+
+"P2":                                      0x45e0
+  P2 s0                        0x20000000    0x60  <Init block>
+    .data             inited   0x20000000    0x44  cwmAlgorithmHal.o [1]
+    .data             inited   0x20000044     0xc  port.o [1]
+    .data             inited   0x20000050     0x8  cwmTaskSen.o [1]
+    .data             inited   0x20000058     0x4  system_stm32f4xx.o [1]
+    __DLIB_PERTHREAD  inited   0x2000005c     0x4  errno.o [4]
+  .bss                zero     0x20000060  0x3c18  heap_4.o [1]
+  .bss                zero     0x20003c78    0xdc  cwmApp.o [1]
+  .bss                zero     0x20003d54    0xdc  cwmApp.o [1]
+  .bss                zero     0x20003e30    0xa0  tasks.o [1]
+  .bss                zero     0x20003ed0    0x8c  tasks.o [1]
+  .bss                zero     0x20003f5c    0x80  cwm_sample task.o [1]
+  .bss                zero     0x20003fdc    0x6c  cwmDriverHal.o [1]
+  .bss                zero     0x20004048    0x58  main.o [1]
+  .bss                zero     0x200040a0    0x40  queue.o [1]
+  .bss                zero     0x200040e0    0x3c  timers.o [1]
+  .bss                zero     0x2000411c    0x38  cwmCalibrator.o [1]
+  .bss                zero     0x20004154    0x2c  cwmApp.o [1]
+  .bss                zero     0x20004180    0x28  cwmApp.o [1]
+  .bss                zero     0x200041a8     0x8  customIntf.o [1]
+  .bss                zero     0x200041b0     0x8  cwmTaskCmd.o [1]
+  .bss                zero     0x200041b8     0x8  cwmTaskSen.o [1]
+  .bss                zero     0x200041c0     0x8  DriverBMI160_SPI.o [1]
+  .bss                zero     0x200041c8     0x8  DriverBMI160_SPI.o [1]
+  .bss                zero     0x200041d0     0x4  customIntf.o [1]
+  .bss                zero     0x200041d4     0x4  customIntf.o [1]
+  .bss                zero     0x200041d8     0x4  stm32f4xx_hal.o [1]
+  .bss                zero     0x200041dc     0x2  cwmApp.o [1]
+  CSTACK                       0x200041e0   0x400  <Block>
+    CSTACK            uninit   0x200041e0   0x400  <Block tail>
+                             - 0x200045e0  0x45e0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x417e:
+          0x20000060  0x417e
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x60:
+          0x08008b24    0x60
+    1 destination range, total size 0x60:
+          0x20000000    0x60
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                             ro code  ro data  rw data
+    ------                                             -------  -------  -------
+D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj: [1]
+    DriverBMI160_SPI.o                                   1 830                16
+    cmsis_os.o                                             102
+    customIntf.o                                           242                16
+    cwmAlgorithmHal.o                                      576       68       68
+    cwmApp.o                                             1 568               526
+    cwmCalibrator.o                                        984                56
+    cwmDriverHal.o                                         540               108
+    cwmGpioConfig.o                                          4
+    cwmTaskCmd.o                                           244                 8
+    cwmTaskSen.o                                           360        8       16
+    cwm_sample task.o                                      368       12      128
+    heap_4.o                                               428            15 384
+    list.o                                                 142
+    main.o                                                 486                88
+    port.o                                                 492       12       12
+    portasm.o                                              168
+    queue.o                                              1 408                64
+    startup_stm32f411xe.o                                  676
+    stm32f4xx_hal.o                                        112                 4
+    stm32f4xx_hal_cortex.o                                 192
+    stm32f4xx_hal_gpio.o                                   452
+    stm32f4xx_hal_msp.o                                    180
+    stm32f4xx_hal_rcc.o                                  1 080
+    stm32f4xx_hal_spi.o                                    794
+    stm32f4xx_it.o                                          14
+    system_stm32f4xx.o                                      96        4        4
+    tasks.o                                              2 372               300
+    timers.o                                               908                60
+    ----------------------------------------------------------------------------
+    Total:                                              16 818      104   16 858
+
+D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\Src\cwm\algo: [2]
+    cwm_air_mouse_V00.01.00_20171108_IAR.o                 396
+    cwm_common_utility_float_V00.09.07_20170725_IAR.o    1 004
+    cwm_fusion_ExMem_V03.15.05_20171106_IAR.o           11 316
+    ----------------------------------------------------------------------------
+    Total:                                              12 716
+
+command line: [3]
+    ----------------------------------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [4]
+    errno.o                                                 12        4        4
+    exit.o                                                   4
+    low_level_init.o                                         4
+    xtls.o                                                   2
+    ----------------------------------------------------------------------------
+    Total:                                                  22        4        4
+
+iar_cortexM4lf_math.a: [5]
+    arm_common_tables.o                                           2 052
+    arm_cos_f32.o                                          128
+    arm_mat_init_f32.o                                       8
+    arm_mat_inverse_f32.o                                1 360
+    arm_mat_mult_f32.o                                     256
+    arm_mat_trans_f32.o                                    250
+    arm_sin_f32.o                                          124
+    ----------------------------------------------------------------------------
+    Total:                                               2 126    2 052
+
+m7M_tls.a: [6]
+    DblCmpGe.o                                              46
+    DblCmpLe.o                                              46
+    DblMul.o                                               418
+    DblToFlt.o                                             144
+    FltToDbl.o                                              78
+    acosf.o                                                100
+    asinf.o                                                 92
+    atan2f.o                                               106
+    fpinit_M.o                                              34
+    sqrtf.o                                                 28
+    xatanf.o                                               164
+    ----------------------------------------------------------------------------
+    Total:                                               1 256
+
+rt7M_tl.a: [7]
+    ABImemclr.o                                              6
+    ABImemclr4.o                                             6
+    ABImemcpy_unaligned.o                                  118
+    ABImemset.o                                             94
+    ABImemset48.o                                           50
+    I64Shl.o                                                34
+    cexit.o                                                 10
+    cmain.o                                                 26
+    copy_init3.o                                            44
+    cstartup_M.o                                            12
+    data_init.o                                             40
+    iarEdom.o                                               12
+    zero_init3.o                                            64
+    ----------------------------------------------------------------------------
+    Total:                                                 516
+
+shb_l.a: [8]
+    exit.o                                                  20
+    ----------------------------------------------------------------------------
+    Total:                                                  20
+
+    Gaps                                                    42        4
+    Linker created                                                   36    1 024
+--------------------------------------------------------------------------------
+    Grand Total:                                        33 516    2 200   17 886
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.iar.init_table$$Base   0x08008988           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x080089ac           --   Gb  - Linker created -
+?main                   0x080089ad          Code  Gb  cmain.o [7]
+ABAT                    0x08003143    0x3e  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+AHBPrescTable           0x080088c0    0x10  Data  Gb  system_stm32f4xx.o [1]
+AccCalData              0x2000413c     0xc  Data  Gb  cwmCalibrator.o [1]
+Acc_en_status           0x200041c0     0x1  Data  Lc  DriverBMI160_SPI.o [1]
+AdaptiveODR_for_StaticDetect
+                        0x080007bd    0x6a  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+CSTACK$$Base            0x200041e0           --   Gb  - Linker created -
+CSTACK$$Limit           0x200045e0           --   Gb  - Linker created -
+CWM_TASK_INIT           0x080087d9    0x1c  Code  Gb  cwm_sample task.o [1]
+CWM_Task                0x08008773    0x4a  Code  Lc  cwm_sample task.o [1]
+CalibratorCheckCriterion
+                        0x0800726d    0xa4  Code  Lc  cwmCalibrator.o [1]
+CalibratorCheckUserFactor
+                        0x080071dd    0x82  Code  Lc  cwmCalibrator.o [1]
+Convert_Quaternion_Type
+                        0x08002b69    0x56  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Detect_fusion_update_type
+                        0x0800210d   0x136  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+DriverAPIDisable        0x080065bf    0x1a  Code  Gb  cwmDriverHal.o [1]
+DriverAPIEnable         0x080065a7    0x18  Code  Gb  cwmDriverHal.o [1]
+DriverAPIGetODR         0x08006671     0xc  Code  Gb  cwmDriverHal.o [1]
+DriverAPIGetRawData     0x0800663f    0x32  Code  Gb  cwmDriverHal.o [1]
+DriverAPIGetStatus      0x0800661b    0x24  Code  Gb  cwmDriverHal.o [1]
+DriverAPISetRate        0x080065f9    0x22  Code  Gb  cwmDriverHal.o [1]
+DriverBMI160SPIAccCheckChipId
+                        0x0800609f    0x36  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccChipSelect
+                        0x08006103     0xa  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccDisable
+                        0x08005f3f    0x4c  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccEnable
+                        0x08005ed3    0x6c  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccGetBypassData
+                        0x08005fc1    0x28  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccGetFIFOData
+                        0x08005fe9     0x4  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccGetStatus
+                        0x08005fed    0x2a  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccHwInit
+                        0x08005e7f    0x54  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccInit  0x08005e6d    0x12  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccScanSlaveAddr
+                        0x080060d5    0x2e  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccSelfTest
+                        0x0800601b    0x1c  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccSetMode
+                        0x0800609b     0x4  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccSetOffset
+                        0x08006041     0x4  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccSetRate
+                        0x08006045    0x56  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIAccSetStatus
+                        0x08006017     0x4  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroCheckChipId
+                        0x08006463    0x34  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroChipSelect
+                        0x080064f9     0xa  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroDisable
+                        0x08006203    0x30  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroEnable
+                        0x08006175    0x5c  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroGetBypassData
+                        0x08006241    0x26  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroGetFIFOData
+                        0x080062d5    0x7e  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroGetStatus
+                        0x0800636d    0x4e  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroHwInit
+                        0x08006123    0x2c  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroInit
+                        0x0800610d    0x10  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroScanSlaveAddr
+                        0x080064bf    0x2c  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroSelfTest
+                        0x080063bf    0x1a  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroSetMode
+                        0x0800645f     0x4  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroSetOffset
+                        0x080063ef     0x4  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroSetRate
+                        0x080063f3    0x60  Code  Gb  DriverBMI160_SPI.o [1]
+DriverBMI160SPIGyroSetStatus
+                        0x080063bb     0x4  Code  Gb  DriverBMI160_SPI.o [1]
+DriverHALInterfaceRead  0x080066b3    0x56  Code  Gb  cwmDriverHal.o [1]
+DriverHALInterfaceWrite
+                        0x08006709    0x58  Code  Gb  cwmDriverHal.o [1]
+DriverHALSelectDefaultSensor
+                        0x08006771    0x32  Code  Gb  cwmDriverHal.o [1]
+DriverHALSensorHwInit   0x08006695    0x1e  Code  Gb  cwmDriverHal.o [1]
+DriverHalSensorConfig   0x0800667d    0x18  Code  Gb  cwmDriverHal.o [1]
+Fusion_Update_Type_Handler
+                        0x08002271    0x8c  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+GPIO_ACC_Chip_Select    0x080067b1     0x2  Code  Gb  cwmGpioConfig.o [1]
+GPIO_Gyro_Chip_Select   0x080067b3     0x2  Code  Gb  cwmGpioConfig.o [1]
+GetDynamicAccUpdateInfo
+                        0x080005e1   0x1dc  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Get_Quaternion_Conjugate
+                        0x08002bbf    0x7e  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Get_Rebased_Quaternion  0x08002d79    0x46  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+GyroCalData             0x20004148     0xc  Data  Gb  cwmCalibrator.o [1]
+HAL_GPIO_Init           0x08007fd1   0x19c  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x0800816d     0x8  Code  Gb  stm32f4xx_hal_gpio.o [1]
+HAL_GetTick             0x08007e4b     0x6  Code  Wk  stm32f4xx_hal.o [1]
+HAL_IncTick             0x08007e41     0xa  Code  Wk  stm32f4xx_hal.o [1]
+HAL_Init                0x08007ded    0x30  Code  Gb  stm32f4xx_hal.o [1]
+HAL_InitTick            0x08007e1d    0x24  Code  Wk  stm32f4xx_hal.o [1]
+HAL_MspInit             0x08007f1d    0x60  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_NVIC_SetPriority    0x08007e91    0x3a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08007e77    0x1a  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig     0x08007c3f   0x12c  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08007dbf     0x6  Code  Gb  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x08007d79    0x46  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080079b5   0x282  Code  Wk  stm32f4xx_hal_rcc.o [1]
+HAL_SPI_Init            0x08008195    0x76  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SPI_MspInit         0x08007f7d    0x48  Code  Gb  stm32f4xx_hal_msp.o [1]
+HAL_SPI_TransmitReceive
+                        0x0800820b   0x18e  Code  Gb  stm32f4xx_hal_spi.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08007ef3    0x14  Code  Gb  stm32f4xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08007ecb    0x28  Code  Gb  stm32f4xx_hal_cortex.o [1]
+Low_Pass_Filter         0x08002e75    0x60  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+MX_GPIO_Init            0x080085ab    0xae  Code  Lc  main.o [1]
+Multiple_Quaternion_PQ  0x08002c3d   0x12e  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+NVIC_SetPriority        0x08007e5d    0x1a  Code  Lc  stm32f4xx_hal_cortex.o [1]
+PendSV_Handler          0x08005041          Code  Gb  portasm.o [1]
+PrepareDynamicAccUpdate
+                        0x08000595    0x4a  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Region$$Table$$Base     0x08008988           --   Gb  - Linker created -
+Region$$Table$$Limit    0x080089ac           --   Gb  - Linker created -
+SPI_CheckFlag_BSY       0x0800848f    0x20  Code  Lc  stm32f4xx_hal_spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                        0x08008405    0x8a  Code  Lc  stm32f4xx_hal_spi.o [1]
+SVC_Handler             0x08005099          Code  Gb  portasm.o [1]
+SensorCmd               0x20004180    0x28  Data  Gb  cwmApp.o [1]
+SensorData              0x20003c78    0xdc  Data  Gb  cwmApp.o [1]
+SensorInfo              0x08006d10    0xe8  Data  Gb  cwmApp.o [1]
+SensorMgr               0x20004154    0x28  Data  Gb  cwmApp.o [1]
+SensorPos               0x200041dc     0x2  Data  Gb  cwmApp.o [1]
+SensorRptData           0x20003d54    0xdc  Data  Gb  cwmApp.o [1]
+SensorsCalibratorAcceleration
+                        0x08007335    0xc0  Code  Lc  cwmCalibrator.o [1]
+SensorsCalibratorGyro   0x080073f5    0xca  Code  Lc  cwmCalibrator.o [1]
+Struct_Init_CWM_ADAPTIVE_ODR_T
+                        0x080001bb    0x18  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Struct_Init_CWM_DYN_ACC_UPD_T
+                        0x080001d5    0x36  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Struct_Init_CWM_FUSION_DLYUPD_T
+                        0x08000199    0x22  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Sync_With_PredictState  0x08002253    0x1e  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+SysTick_Handler         0x08008a01     0xe  Code  Gb  stm32f4xx_it.o [1]
+SysTimestamp            0x2000417c     0x4  Data  Gb  cwmApp.o [1]
+SystemClock_Config      0x08008501    0xaa  Code  Gb  main.o [1]
+SystemCoreClock         0x20000058     0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit              0x08008871    0x3a  Code  Gb  system_stm32f4xx.o [1]
+Vector_Low_Pass_Filter  0x08002edb    0x24  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+Vector_Low_Pass_Filter2
+                        0x08002f5d     0xa  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+Vector_cross_product    0x0800255d    0x52  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+Vector_dot_product      0x08002525    0x26  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+__aeabi_cdcmple         0x08007831          Code  Gb  DblCmpLe.o [6]
+__aeabi_cdrcmple        0x08007801          Code  Gb  DblCmpGe.o [6]
+__aeabi_d2f             0x08003239          Code  Gb  DblToFlt.o [6]
+__aeabi_dmul            0x080032c9          Code  Gb  DblMul.o [6]
+__aeabi_errno_addr      0x08003f39     0x6  Code  Gb  errno.o [4]
+__aeabi_f2d             0x0800346d          Code  Gb  FltToDbl.o [6]
+__aeabi_llsl            0x080067b5          Code  Gb  I64Shl.o [7]
+__aeabi_memclr          0x08007579          Code  Gb  ABImemclr.o [7]
+__aeabi_memclr4         0x08003231          Code  Gb  ABImemclr4.o [7]
+__cmain                 0x080089ad          Code  Gb  cmain.o [7]
+__exit                  0x080089dd    0x14  Code  Gb  exit.o [8]
+__iar_Errno             0x2000005c     0x4  Data  Gb  errno.o [4]
+__iar_Memset4_word      0x08003e55          Code  Gb  ABImemset48.o [7]
+__iar_Memset8_word      0x08003e55          Code  Gb  ABImemset48.o [7]
+__iar_Memset_word       0x08007861          Code  Gb  ABImemset.o [7]
+__iar_copy_init3        0x08008911    0x2c  Code  Gb  copy_init3.o [7]
+__iar_data_init3        0x0800893d    0x28  Code  Gb  data_init.o [7]
+__iar_dlib_perthread_access
+                        0x08003f45     0x2  Code  Gb  xtls.o [4]
+__iar_edom              0x08003e89          Code  Gb  iarEdom.o [7]
+__iar_init_vfp          0x08008965          Code  Gb  fpinit_M.o [6]
+__iar_program_start     0x08008a1d          Code  Gb  cstartup_M.o [7]
+__iar_unaligned___aeabi_memcpy
+                        0x08002dcd          Code  Gb  ABImemcpy_unaligned.o [7]
+__iar_unaligned___aeabi_memcpy4
+                        0x08002ded          Code  Gb  ABImemcpy_unaligned.o [7]
+__iar_unaligned___aeabi_memcpy8
+                        0x08002ded          Code  Gb  ABImemcpy_unaligned.o [7]
+__iar_xatanf            0x08003e95          Code  Gb  xatanf.o [6]
+__iar_zero_init3        0x080088d1    0x40  Code  Gb  zero_init3.o [7]
+__low_level_init        0x080089c7     0x4  Code  Gb  low_level_init.o [4]
+__vector_table          0x08000000          Data  Gb  startup_stm32f411xe.o [1]
+_call_main              0x080089b9          Code  Gb  cmain.o [7]
+_exit                   0x080089d1          Code  Gb  cexit.o [7]
+_main                   0x080089c3          Code  Gb  cmain.o [7]
+accDrvInterafceSetting  0x08006548     0x2  Data  Gb  DriverBMI160_SPI.o [1]
+acc_update              0x08001935   0x2dc  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+acc_update_by_multiple_rotation
+                        0x080018ab    0x8a  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+acc_update_pitch_compensation
+                        0x080015b9   0x27a  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+acc_update_predict_gravity
+                        0x08001363    0x6a  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+acc_update_roll_compensation
+                        0x080013cd   0x1b4  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+acosf                   0x08003631          Code  Gb  acosf.o [6]
+algo_ret                0x20000010     0x4  Data  Gb  cwmAlgorithmHal.o [1]
+algorithmDisable        0x08006ecd    0x22  Code  Gb  cwmAlgorithmHal.o [1]
+algorithmEnable         0x08006eab    0x22  Code  Gb  cwmAlgorithmHal.o [1]
+algorithmInit           0x08006df9    0xb2  Code  Gb  cwmAlgorithmHal.o [1]
+arm_cos_f32             0x08003555    0x80  Code  Gb  arm_cos_f32.o [5]
+arm_mat_init_f32        0x080036ff     0x8  Code  Gb  arm_mat_init_f32.o [5]
+arm_mat_inverse_f32     0x08003905   0x550  Code  Gb  arm_mat_inverse_f32.o [5]
+arm_mat_mult_f32        0x08003709   0x100  Code  Gb  arm_mat_mult_f32.o [5]
+arm_mat_trans_f32       0x08003809    0xfa  Code  Gb  arm_mat_trans_f32.o [5]
+arm_sin_f32             0x080034d9    0x7c  Code  Gb  arm_sin_f32.o [5]
+arm_sqrt_f32            0x08002e45    0x20  Code  Lc  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+asinf                   0x080035d5          Code  Gb  asinf.o [6]
+atan2f                  0x08003695          Code  Gb  atan2f.o [6]
+calibrator              0x2000411c    0x20  Data  Gb  cwmCalibrator.o [1]
+cb_SPIRead              0x200041ac     0x4  Data  Gb  customIntf.o [1]
+cb_SPIWrite             0x200041a8     0x4  Data  Gb  customIntf.o [1]
+conBMI160SPIAccCallBack
+                        0x08006504    0x44  Data  Gb  DriverBMI160_SPI.o [1]
+conBMI160SPIGyroCallBack
+                        0x0800654c    0x44  Data  Gb  DriverBMI160_SPI.o [1]
+convert_rot_vec_q0123_WXYZ_to_q1230_XYZW
+                        0x080025af    0x48  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+convert_rot_vec_q1230_XYZW_to_q0123_WXYZ
+                        0x08002601    0x46  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+cwm_air_mouse           0x080076d9   0x106  Code  Gb  cwm_air_mouse_V00.01.00_20171108_IAR.o [2]
+cwm_game_rot_vec        0x0800297d    0xbc  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+cwm_get_orien           0x08002771    0x78  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+cwm_get_point_on_spheresurface_axis
+                        0x0800283d    0x98  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+cwm_get_rot_mat         0x08002665   0x106  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+cwm_get_spherical_coord_axis
+                        0x080028e1    0x80  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+cwm_logout_cb           0x080086d9     0x6  Code  Lc  cwm_sample task.o [1]
+cwm_logout_cb_register  0x0800758b     0x8  Code  Gb  customIntf.o [1]
+cwm_logout_ptr          0x200041d4     0x4  Data  Lc  customIntf.o [1]
+cwm_send_evt            0x080075e1    0x34  Code  Gb  customIntf.o [1]
+cwm_send_log            0x08007615    0x1c  Code  Gb  customIntf.o [1]
+cwm_senevt_cb           0x08008699    0x40  Code  Lc  cwm_sample task.o [1]
+cwm_senevt_cb_register  0x08007581     0xa  Code  Gb  customIntf.o [1]
+cwm_sensor_enable       0x080075b3     0xa  Code  Gb  customIntf.o [1]
+cwm_sensor_evt_ptr      0x200041d0     0x4  Data  Lc  customIntf.o [1]
+cwm_sensor_pos_set      0x080075c5     0xe  Code  Gb  customIntf.o [1]
+cwm_spi_cb_register     0x0800759f    0x14  Code  Gb  customIntf.o [1]
+cwm_task_init           0x080075d3     0xe  Code  Gb  customIntf.o [1]
+disable_cwm_air_mouse   0x080076a1     0x2  Code  Gb  cwm_air_mouse_V00.01.00_20171108_IAR.o [2]
+disable_cwm_game_rot_vec
+                        0x0800037d     0x2  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+enable_cwm_air_mouse    0x08007693     0xe  Code  Gb  cwm_air_mouse_V00.01.00_20171108_IAR.o [2]
+enable_cwm_fusion       0x08000215     0xe  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+enable_cwm_game_rot_vec
+                        0x08000265     0xc  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+evt_adapt               0x08007641    0x32  Code  Lc  customIntf.o [1]
+exit                    0x080089cb     0x4  Code  Gb  exit.o [4]
+fusion_update           0x0800230d   0x1e0  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+g_DriverEnableList      0x20004044     0x4  Data  Gb  cwmDriverHal.o [1]
+g_DriverHalMem          0x20003fdc    0x68  Data  Gb  cwmDriverHal.o [1]
+g_hAirMouseMem          0x20000000     0x4  Data  Gb  cwmAlgorithmHal.o [1]
+g_sensor_timer          0x20000054     0x4  Data  Lc  cwmTaskSen.o [1]
+game_rot_vec_mem        0x20000008     0x4  Data  Gb  cwmAlgorithmHal.o [1]
+geo_rot_vec_mem         0x2000000c     0x4  Data  Gb  cwmAlgorithmHal.o [1]
+getCalibratorBias       0x080074ef    0x34  Code  Gb  cwmCalibrator.o [1]
+gyrDrvInterafceSetting  0x08006590     0x2  Data  Gb  DriverBMI160_SPI.o [1]
+hspi2                   0x20004048    0x58  Data  Gb  main.o [1]
+init_cwm_air_mouse      0x08007679    0x1a  Code  Gb  cwm_air_mouse_V00.01.00_20171108_IAR.o [2]
+init_cwm_fusion         0x0800037f     0xa  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+init_cwm_game_rot_vec   0x08000389     0x8  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+m_pBMI160SPIAccMem      0x200041c4     0x4  Data  Gb  DriverBMI160_SPI.o [1]
+m_pBMI160SPIGyroMem     0x200041cc     0x4  Data  Gb  DriverBMI160_SPI.o [1]
+mag_correct_constraint  0x08000849    0xac  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+mag_update              0x08001d95   0x296  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+mag_update_by_single_rotation
+                        0x08001c2d   0x12e  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+main                    0x080084b1    0x50  Code  Gb  main.o [1]
+makeFreeRtosPriority    0x08008809     0xc  Code  Lc  cmsis_os.o [1]
+math_acos               0x08003009    0x2e  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+math_asin               0x08002fd5    0x32  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+math_atan2              0x08003039    0x34  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+math_cos                0x08002fa9     0x8  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+math_fabs               0x08002e65    0x10  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+math_sin                0x08002f9d     0x8  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+math_sqrt               0x0800307f    0x1e  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+matrix_inverse          0x08003181    0x22  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+matrix_length           0x080031a5    0x1c  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+matrix_multiply         0x0800309d    0x3c  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+matrix_multiply_trans   0x080030e9    0x5a  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+matrix_normalize        0x080031c1    0x50  Code  Gb  cwm_common_utility_float_V00.09.07_20170725_IAR.o [2]
+memsize_cwm_air_mouse   0x08007675     0x4  Code  Gb  cwm_air_mouse_V00.01.00_20171108_IAR.o [2]
+memsize_cwm_game_rot_vec
+                        0x0800020d     0x2  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+memsize_cwm_rot_vec     0x0800020b     0x2  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+mySenEvt                0x20003f5c    0x80  Data  Lc  cwm_sample task.o [1]
+osDelay                 0x0800884d     0xe  Code  Gb  cmsis_os.o [1]
+osKernelStart           0x08008815     0xa  Code  Gb  cmsis_os.o [1]
+osSystickHandler        0x0800885b    0x14  Code  Gb  cmsis_os.o [1]
+osTaskDelay             0x08006595    0x12  Code  Gb  cwmDriverHal.o [1]
+osThreadCreate          0x0800881f    0x2e  Code  Gb  cmsis_os.o [1]
+preprocess              0x08000935   0x516  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+propagation             0x08000ff5   0x358  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+prvAddCurrentTaskToDelayedList
+                        0x08004811    0x68  Code  Lc  tasks.o [1]
+prvAddNewTaskToReadyList
+                        0x08004019    0xa6  Code  Lc  tasks.o [1]
+prvCheckForValidListAndQueue
+                        0x08004fc5    0x46  Code  Lc  timers.o [1]
+prvCopyDataFromQueue    0x08005555    0x26  Code  Lc  queue.o [1]
+prvCopyDataToQueue      0x080054ed    0x68  Code  Lc  queue.o [1]
+prvDeleteTCB            0x08004651    0x14  Code  Lc  tasks.o [1]
+prvIdleTask             0x080045fd    0x54  Code  Lc  tasks.o [1]
+prvInitialiseNewQueue   0x080051a3    0x16  Code  Lc  queue.o [1]
+prvInitialiseNewTask    0x08003fa1    0x78  Code  Lc  tasks.o [1]
+prvInitialiseNewTimer   0x08004d17    0x38  Code  Lc  timers.o [1]
+prvInsertBlockIntoFreeList
+                        0x080049eb    0x46  Code  Lc  heap_4.o [1]
+prvInsertTimerInActiveList
+                        0x08004ee7    0x34  Code  Lc  timers.o [1]
+prvIsQueueEmpty         0x080055e1    0x16  Code  Lc  queue.o [1]
+prvProcessReceivedCommands
+                        0x08004f1d    0xa8  Code  Lc  timers.o [1]
+prvProcessTimerOrBlockTask
+                        0x08004dc3    0x9a  Code  Lc  timers.o [1]
+prvResetNextTaskUnblockTime
+                        0x08004665    0x1c  Code  Lc  tasks.o [1]
+prvSampleTimeNow        0x08004e5d    0x7a  Code  Lc  timers.o [1]
+prvTaskExitError        0x08004af1    0x28  Code  Lc  port.o [1]
+prvTaskIsTaskSuspended  0x0800419f    0x24  Code  Lc  tasks.o [1]
+prvTimerTask            0x08004da1    0x22  Code  Lc  timers.o [1]
+prvUnlockQueue          0x0800557b    0x66  Code  Lc  queue.o [1]
+pvPortMalloc            0x0800488d    0xfa  Code  Gb  heap_4.o [1]
+pvTaskIncrementMutexHeldCount
+                        0x080047b5    0x14  Code  Gb  tasks.o [1]
+pvTimerGetTimerID       0x08005015    0x12  Code  Gb  timers.o [1]
+pxCurrentTCB            0x20003e58     0x4  Data  Gb  tasks.o [1]
+pxCurrentTimerList      0x200040e0     0x4  Data  Lc  timers.o [1]
+pxDelayedTaskList       0x20003e5c     0x4  Data  Lc  tasks.o [1]
+pxEnd                   0x20000068     0x4  Data  Lc  heap_4.o [1]
+pxOverflowDelayedTaskList
+                        0x20003e60     0x4  Data  Lc  tasks.o [1]
+pxOverflowTimerList     0x200040e4     0x4  Data  Lc  timers.o [1]
+pxPortInitialiseStack   0x08004ac9    0x26  Code  Gb  port.o [1]
+pxReadyTasksLists       0x20003ed0    0x8c  Data  Lc  tasks.o [1]
+remap_coordinates       0x08000559    0x3a  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+rot_vec_mem             0x20000004     0x4  Data  Gb  cwmAlgorithmHal.o [1]
+samplesToDiscard        0x200041c8     0x2  Data  Lc  DriverBMI160_SPI.o [1]
+sensorAlignAxis         0x080068a1    0x88  Code  Lc  cwmApp.o [1]
+sensorCommandDisable    0x08006cd7    0x26  Code  Gb  cwmApp.o [1]
+sensorCommandEnable     0x08006c97    0x40  Code  Gb  cwmApp.o [1]
+sensorCommandEnableSync
+                        0x08006b8d    0xf4  Code  Lc  cwmApp.o [1]
+sensorDataBias          0x08006863    0x3e  Code  Lc  cwmApp.o [1]
+sensorDataInit          0x080067f3    0x48  Code  Lc  cwmApp.o [1]
+sensorDataProcess       0x080069a7    0xb8  Code  Lc  cwmApp.o [1]
+sensorEnable            0x08006937    0x70  Code  Lc  cwmApp.o [1]
+sensorEvtReport         0x08006a5f    0xfe  Code  Gb  cwmApp.o [1]
+sensorInit              0x080067d9    0x1a  Code  Gb  cwmApp.o [1]
+sensorListenAcceleration
+                        0x08006ef9     0x2  Code  Gb  cwmAlgorithmHal.o [1]
+sensorListenGyro        0x08006efd   0x10e  Code  Gb  cwmAlgorithmHal.o [1]
+sensorMain              0x08006b5d    0x30  Code  Gb  cwmApp.o [1]
+sensorSetPosition       0x08006c81    0x16  Code  Gb  cwmApp.o [1]
+sensorTimerControl      0x0800683b    0x28  Code  Lc  cwmApp.o [1]
+sensor_app_create       0x08007113    0x30  Code  Gb  cwmTaskSen.o [1]
+sensor_app_start        0x080070c5    0x16  Code  Gb  cwmTaskSen.o [1]
+sensor_cmd_app_create   0x0800796d    0x2c  Code  Gb  cwmTaskCmd.o [1]
+sensor_cmd_app_set      0x080078db    0x24  Code  Gb  cwmTaskCmd.o [1]
+sensor_cmd_app_start    0x080078c1    0x1a  Code  Gb  cwmTaskCmd.o [1]
+sensor_cmd_task         0x200041b4     0x4  Data  Lc  cwmTaskCmd.o [1]
+sensor_cmd_task_cntx    0x200041b0     0x4  Data  Gb  cwmTaskCmd.o [1]
+sensor_cmd_task_main    0x080078ff    0x6e  Code  Lc  cwmTaskCmd.o [1]
+sensor_task             0x200041bc     0x4  Data  Lc  cwmTaskSen.o [1]
+sensor_task_cntx        0x200041b8     0x4  Data  Lc  cwmTaskSen.o [1]
+sensor_task_main        0x080070db    0x38  Code  Lc  cwmTaskSen.o [1]
+sensor_timer_callback   0x08007145    0x20  Code  Lc  cwmTaskSen.o [1]
+sensor_timer_change     0x08007075    0x46  Code  Gb  cwmTaskSen.o [1]
+sensor_timer_init       0x08007039    0x1e  Code  Gb  cwmTaskSen.o [1]
+sensor_timer_period     0x20000050     0x2  Data  Lc  cwmTaskSen.o [1]
+sensor_timer_start      0x08007057    0x18  Code  Gb  cwmTaskSen.o [1]
+sensorsCalibratorDataInput
+                        0x080074d3    0x1c  Code  Gb  cwmCalibrator.o [1]
+sensorsCalibratorEnable
+                        0x080071c1    0x1c  Code  Gb  cwmCalibrator.o [1]
+sensorsCalibratorInitial
+                        0x080071a1    0x20  Code  Gb  cwmCalibrator.o [1]
+set_config_cwm_air_mouse
+                        0x080076a3    0x32  Code  Gb  cwm_air_mouse_V00.01.00_20171108_IAR.o [2]
+set_config_cwm_fusion   0x080003c9    0x9c  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+set_config_cwm_game_rot_vec
+                        0x0800046d    0x9e  Code  Gb  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+setting_state           0x08000ebd    0xdc  Code  Lc  cwm_fusion_ExMem_V03.15.05_20171106_IAR.o [2]
+sinTable_f32            0x08005668   0x804  Data  Gb  arm_common_tables.o [5]
+spiRead                 0x08008721    0x3c  Code  Lc  cwm_sample task.o [1]
+spiWrite                0x080086df    0x38  Code  Lc  cwm_sample task.o [1]
+sqrtf                   0x080034bd          Code  Gb  sqrtf.o [6]
+ucHeap                  0x20000078  0x3c00  Data  Lc  heap_4.o [1]
+ucMaxSysCallPriority    0x20000044     0x1  Data  Lc  port.o [1]
+ulMaxPRIGROUPValue      0x2000004c     0x4  Data  Lc  port.o [1]
+uwTick                  0x200041d8     0x4  Data  Gb  stm32f4xx_hal.o [1]
+uxCriticalNesting       0x20000048     0x4  Data  Lc  port.o [1]
+uxCurrentNumberOfTasks  0x20003e7c     0x4  Data  Lc  tasks.o [1]
+uxDeletedTasksWaitingCleanUp
+                        0x20003e64     0x4  Data  Lc  tasks.o [1]
+uxListRemove            0x08004aa3    0x24  Code  Gb  list.o [1]
+uxPendedTicks           0x20003e8c     0x4  Data  Lc  tasks.o [1]
+uxSchedulerSuspended    0x20003ea0     0x4  Data  Lc  tasks.o [1]
+uxTaskNumber            0x20003e98     0x4  Data  Lc  tasks.o [1]
+uxTopReadyPriority      0x20003e84     0x4  Data  Lc  tasks.o [1]
+vListInitialise         0x08004a39    0x1a  Code  Gb  list.o [1]
+vListInitialiseItem     0x08004a53     0x6  Code  Gb  list.o [1]
+vListInsert             0x08004a71    0x32  Code  Gb  list.o [1]
+vListInsertEnd          0x08004a59    0x18  Code  Gb  list.o [1]
+vPortEnableVFP          0x080050cd          Code  Gb  portasm.o [1]
+vPortEnterCritical      0x08004bb1    0x32  Code  Gb  port.o [1]
+vPortExitCritical       0x08004be3    0x24  Code  Gb  port.o [1]
+vPortFree               0x08004999    0x44  Code  Gb  heap_4.o [1]
+vPortSetupTimerInterrupt
+                        0x08004c2d    0x18  Code  Wk  port.o [1]
+vPortStartFirstTask     0x080050b5          Code  Gb  portasm.o [1]
+vPortValidateInterruptPriority
+                        0x08004c45    0x42  Code  Gb  port.o [1]
+vQueueAddToRegistry     0x080055f7    0x20  Code  Gb  queue.o [1]
+vQueueWaitForMessageRestricted
+                        0x08005621    0x48  Code  Gb  queue.o [1]
+vTaskDelay              0x080040bf    0x28  Code  Gb  tasks.o [1]
+vTaskMissedYield        0x080045f3     0xa  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventList   0x080044bb    0x14  Code  Gb  tasks.o [1]
+vTaskPlaceOnEventListRestricted
+                        0x080044d3    0x1e  Code  Gb  tasks.o [1]
+vTaskPriorityInherit    0x08004699    0x6c  Code  Gb  tasks.o [1]
+vTaskResume             0x080041c3    0x4a  Code  Gb  tasks.o [1]
+vTaskSetTimeOutState    0x08004573    0x20  Code  Gb  tasks.o [1]
+vTaskStartScheduler     0x08004287    0x5e  Code  Gb  tasks.o [1]
+vTaskSuspend            0x080040e7    0x5e  Code  Gb  tasks.o [1]
+vTaskSuspendAll         0x080042e5     0xc  Code  Gb  tasks.o [1]
+vTaskSwitchContext      0x08004469    0x52  Code  Gb  tasks.o [1]
+xActiveTimerList1       0x200040f4    0x14  Data  Lc  timers.o [1]
+xActiveTimerList2       0x20004108    0x14  Data  Lc  timers.o [1]
+xBlockAllocatedBit      0x20000074     0x4  Data  Lc  heap_4.o [1]
+xDelayedTaskList1       0x20003ea4    0x14  Data  Lc  tasks.o [1]
+xDelayedTaskList2       0x20003eb8    0x14  Data  Lc  tasks.o [1]
+xFreeBytesRemaining     0x2000006c     0x4  Data  Lc  heap_4.o [1]
+xIdleTaskHandle         0x20003ecc     0x4  Data  Lc  tasks.o [1]
+xMinimumEverFreeBytesRemaining
+                        0x20000070     0x4  Data  Lc  heap_4.o [1]
+xNextTaskUnblockTime    0x20003e9c     0x4  Data  Lc  tasks.o [1]
+xNumOfOverflows         0x20003e94     0x4  Data  Lc  tasks.o [1]
+xPendingReadyList       0x20003e30    0x14  Data  Lc  tasks.o [1]
+xPortStartScheduler     0x08004b19    0x84  Code  Gb  port.o [1]
+xPortSysTickHandler     0x08004c07    0x26  Code  Gb  port.o [1]
+xQueueGenericCreate     0x08005167    0x3c  Code  Gb  queue.o [1]
+xQueueGenericReceive    0x08005381   0x14e  Code  Gb  queue.o [1]
+xQueueGenericReset      0x080050e9    0x7e  Code  Gb  queue.o [1]
+xQueueGenericSend       0x080051b9   0x132  Code  Gb  queue.o [1]
+xQueueGenericSendFromISR
+                        0x080052eb    0x96  Code  Gb  queue.o [1]
+xQueueRegistry          0x200040a0    0x40  Data  Gb  queue.o [1]
+xSchedulerRunning       0x20003e88     0x4  Data  Lc  tasks.o [1]
+xStart                  0x20000060     0x8  Data  Lc  heap_4.o [1]
+xSuspendedTaskList      0x20003e68    0x14  Data  Lc  tasks.o [1]
+xTaskCheckForTimeOut    0x08004593    0x58  Code  Gb  tasks.o [1]
+xTaskCreate             0x08003f49    0x58  Code  Gb  tasks.o [1]
+xTaskGetSchedulerState  0x08004681    0x18  Code  Gb  tasks.o [1]
+xTaskGetTickCount       0x08004397     0x8  Code  Gb  tasks.o [1]
+xTaskIncrementTick      0x0800439f    0xb6  Code  Gb  tasks.o [1]
+xTaskPriorityDisinherit
+                        0x08004705    0x7a  Code  Gb  tasks.o [1]
+xTaskRemoveFromEventList
+                        0x0800450d    0x5a  Code  Gb  tasks.o [1]
+xTaskResumeAll          0x080042f1    0x92  Code  Gb  tasks.o [1]
+xTaskResumeFromISR      0x0800421f    0x68  Code  Gb  tasks.o [1]
+xTasksWaitingTermination
+                        0x20003e44    0x14  Data  Lc  tasks.o [1]
+xTickCount              0x20003e80     0x4  Data  Lc  tasks.o [1]
+xTimerCreate            0x08004ce9    0x2e  Code  Gb  timers.o [1]
+xTimerCreateTimerTask   0x08004cb5    0x34  Code  Gb  timers.o [1]
+xTimerGenericCommand    0x08004d4f    0x50  Code  Gb  timers.o [1]
+xTimerQueue             0x200040e8     0x4  Data  Lc  timers.o [1]
+xTimerTaskHandle        0x200040ec     0x4  Data  Lc  timers.o [1]
+xYieldPending           0x20003e90     0x4  Data  Lc  tasks.o [1]
+
+
+[1] = D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\EWARM\STM32F411_AIR_MOUSE\Obj
+[2] = D:\code\platform\stm32\projects\hTC_air_mouse_STM32F411\STM32F411_AIR_MOUSE\Src\cwm\algo
+[3] = command line
+[4] = dl7M_tlf.a
+[5] = iar_cortexM4lf_math.a
+[6] = m7M_tls.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  33 516 bytes of readonly  code memory
+   2 200 bytes of readonly  data memory
+  17 886 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
